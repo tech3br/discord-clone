@@ -8,6 +8,8 @@ export const Container = styled.div`
     align-items: center;
     
     background-color: var(--primary);
+    border: 1px solid var(--rocketseat);
+
     padding: 11px 0;
 
     max-height: 100vh;
