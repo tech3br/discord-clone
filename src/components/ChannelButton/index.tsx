@@ -15,11 +15,11 @@ const ChannelButton: React.FC<Props> = ({
         <Container className={selected ? 'active' : ''}>
             <div>
                 <HashtagIcon />    
-                <span>chat-livre</span>    
+                <span>{channelName}</span>    
             </div>            
             <div>
-                <InviteIcon /> 
-                <SettingsIcon /> 
+                <InviteIcon className="icons" /> 
+                <SettingsIcon className="icons" /> 
             </div>            
         </Container>
     )
