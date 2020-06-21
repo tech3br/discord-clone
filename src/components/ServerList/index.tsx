@@ -8,9 +8,7 @@ const ServerList: React.FC = () => {
     return (
         <Container>
             <ServerButton isHome={true} />
-
             <Separator />
-
             <ServerButton />
             <ServerButton hasNotifications />
             <ServerButton mentions={3}/>

@@ -7,7 +7,7 @@ export const Container = styled.div`
     
     
     padding: 3px 6px 0 16px; 
-    background-color: var(--primary);
+    background-color: var(--secondary);
 
     max-height: calc(100vh - 46px);
     overflow-y: scroll;
@@ -81,7 +81,7 @@ export const Avatar = styled.div`
     height: 32px;
 
     border-radius: 50%;
-    background-color: var(--secondary);
+    background-color: var(--white);
 
     &.bot {
         background-color: var(--mention-detail);

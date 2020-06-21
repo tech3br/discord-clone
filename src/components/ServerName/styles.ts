@@ -8,8 +8,8 @@ export const Container = styled.div`
     
     padding: 0 11px 0 16px;
 
-    background-color: var(--primary);
-    border: 1px solid var(--rocketseat);
+    background-color: var(--secondary);
+
 
     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
     z-index: 2;
@@ -20,8 +20,8 @@ export const Title = styled.div`
     color: var(--white);
 `;
 export const ExpandIcon = styled(ChevronsDown)`
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
 
     color: var(--white);
     cursor: pointer;

@@ -8,18 +8,18 @@ export const Container = styled.div`
     flex-direction: column;
 
     padding: 24px 9.5px 0 16px;
-    background-color: var(--primary);
+    background-color: var(--secondary);
 `;
 
 export const Category = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 6px;
 
     > span {
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 500;
         color: var(--gray);
     }

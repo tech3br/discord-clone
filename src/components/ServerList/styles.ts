@@ -7,8 +7,8 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     
-    background-color: var(--primary);
-    border: 1px solid var(--rocketseat);
+    background-color: var(--tertiary);
+
 
     padding: 11px 0;
 
@@ -21,7 +21,7 @@ export const Container = styled.div`
 `;
 export const Separator = styled.div`
     width: 32px;
-    border-bottom: 2px solid var(--quartenary);
+    border-bottom: 2px solid var(--quinary);
 
     margin-bottom: 8px;
 `;
